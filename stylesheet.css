@@ -1,0 +1,20 @@
+:root {
+    --background: #F0F0F0;
+    --backgroundDark: #E0E0E0;
+    --col1: #0b2a4c;
+}
+.divide {
+    display: inline-block;
+    height: 10px;
+    width: inherit;
+}
+.tag {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+}
+.interactive{
+    display: inline-block;
+    width: 275px;
+    height: 50px;
+}
