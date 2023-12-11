@@ -3,6 +3,18 @@
     --backgroundDark: #E0E0E0;
     --col1: #0b2a4c;
 }
+.bg{
+    background-color:var(--background)
+}
+.bg-element{
+    background-color:var(--backgroundDark)
+}
+.colorOne{
+    background-color:var(--col1)
+}
+.logo{
+    width: 100px;
+}
 .divide {
     display: inline-block;
     height: 10px;
