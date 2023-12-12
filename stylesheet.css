@@ -1,3 +1,6 @@
+input:focus::placeholder{
+    color:transparent;
+}
 :root {
     --background: #F0F0F0;
     --backgroundDark: #E0E0E0;

@@ -50,11 +50,28 @@
         <div class="col bg">
             <p class="display-3 m-3 text-center">Contact Us</p>
             <span class="divide bg-warning pe-3"></span>
-            <div class="row h3 m-2"><p>Send Us A Message</p></div>
-            <div class="row m-2"><p>[Name]</p></div>
-            <div class="row m-2"><p>[Email]</p></div>
-            <div class="row m-2"><p>[Type of contact dropdown - Problem, Inquiry, Suggestion, Other]</p></div>
-            <div class="row m-2"><p>[Message]</p></div>
+            <div class="row h3 m-2 ms-5 mt-3"><p>Send Us A Message</p></div>
+            <div class="row m-2 ms-5">
+                <div class="col-2"><input class="form-control" type="text" placeholder="First Name"></div>
+                <div class="col-2"><input class="form-control" type="text" placeholder="Last Name"></div>
+            </div>
+            <div class="row m-2 ms-5">
+                <div class="col-4"><input class="form-control" type="text" placeholder="Email"></div>
+            </div>
+            <div class="row m-2 ms-5">
+                <div class="col-4">
+                    <a class="nav-link dropdown toggle border rounded-1 text-dark text-center pt-0 pb-2 bg-white" role="button" data-bs-toggle="dropdown">Type of Message...<i class="material-icons">expand_more</i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item">Problem/Error</a></li>
+                        <li><a class="dropdown-item">Inquiry</a></li>
+                        <li><a class="dropdown-item">Suggestion</a></li>
+                        <li><a class="dropdown-item">Other</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row m-2 ms-5">
+                <div class="col-4 mb-3"><textarea cols="49" rows="10" placeholder="Write Message Here"></textarea></div>
+            </div>
             <span class="divide bg-warning pe-3"></span>
         </div>
     </div>
